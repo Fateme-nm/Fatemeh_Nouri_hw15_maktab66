@@ -1,0 +1,41 @@
+* {
+    border-radius: 3px;
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.newInput:focus {
+    outline: none !important;
+}
+
+.addBtn {
+    background-color: rgb(55, 186, 219) !important;
+    border: none !important;
+}
+
+.addBtn:hover {
+    background-color: rgb(49, 168, 197) !important;
+}
+
+.filter-media {
+    width: 12rem !important;
+    margin-right: 1rem;
+    height: 3rem;
+}
+
+.filter-media:focus {
+    outline: none !important;
+}
+
+@media (max-width: 544px) {
+    .form-media {
+        flex-direction: column !important;
+    }
+    .filter-media {
+        margin-top: 0.8rem;
+        width: 100% !important;
+        margin-right: 0;
+    }
+}

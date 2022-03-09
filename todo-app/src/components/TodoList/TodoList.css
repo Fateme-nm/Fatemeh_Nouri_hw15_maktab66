@@ -1,0 +1,8 @@
+.clear {
+    background: linear-gradient(0.25turn, #508faa, #baf5d4, #f7a241) !important;
+    font-weight: 700 !important;
+}
+
+.clear:hover {
+    background: linear-gradient(0.25turn, #49829b, #ace4c4, #d88e39) !important;
+}

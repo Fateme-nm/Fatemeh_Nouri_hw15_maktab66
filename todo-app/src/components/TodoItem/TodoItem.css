@@ -1,0 +1,24 @@
+.todoInput:focus {
+    outline: none !important;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.completedBtn {
+    background-color: rgb(55, 186, 219) !important;
+}
+
+.completedBtn:hover {
+    background-color: rgb(49, 168, 197) !important;
+}
+
+.deleteBtn {
+    background-color: rgb(236, 175, 8) !important;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(219, 162, 3) !important;
+}
